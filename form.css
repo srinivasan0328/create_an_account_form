@@ -1,0 +1,197 @@
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* step2: component */
+.formSection{
+    /* background-color: #00ffff; */
+}
+
+/* step3: componentContainer */
+.formContainer{
+    /* background-color: #3e8544; */
+}
+
+/* step4: row */
+.formBody{
+    /* background-color: beige;   */
+    /* padding: 1rem; */
+}
+
+/* step5: column */
+.formBlock{
+    /* background-color: #ba5858; */
+    /* padding: 1rem; */
+}
+
+/* step6: subColumn */
+.formBox{
+    background-color: #f2f2f0;
+    width: 35%;
+    padding: 3rem;
+    border: 1px solid #d3d3d5;
+    border-radius: 10px;
+}
+
+.formTitle{
+    /* background-color: #a4d254; */
+}
+
+/* step7: contentContainer */
+.formTitle h3{
+    /* background-color: #632121; */
+    font-size: var(--headingFont);
+    color: var(--darkColor);
+}
+
+.formTitle p{
+    /* background-color: #388893; */
+    font-size: var(--regularFont);
+    color: var(--tertiaryColor);
+}
+
+/* <!--actual form starts--!> */
+.loginForm{
+    /* background-color: #362b99; */
+    width: 100%;
+    padding: 1rem;
+}
+
+.formGrp{
+    /* background-color: #a54e9a; */
+    width: 100%;
+    position: relative;
+}
+.formGrp label{
+    /* background-color: #605e20; */
+    color: var(--darkColor);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+.formGrp input{
+    /* background-color: #ec2654; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 1.5rem;
+    border: 2px solid #a6a8aa;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+}
+
+.formGrp i{
+    /* background-color: #6a6799; */
+    position: absolute;
+    bottom: 9px;
+    right: 15px;
+}
+
+.BtnGrp{
+    /* background-color: #4a7148; */
+}
+
+.BtnGrp button{
+    background-color: #2201ff;
+    color: var(--lightColor);
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 1px solid #2201ff;
+    border-radius: 5px;
+}
+
+.BtnGrp button:hover{
+    background-color: #b6babc;
+    border: none;
+    color: var(--darkColor);
+    cursor: pointer;
+}
+
+.logIn{
+    /* background-color: #3b324d; */
+}
+
+.logIn p{
+    /* background-color: #316645; */
+}
+
+.logIn a{
+    /* background-color: #e2dd48; */
+    font-weight: 500;
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+
+@media (max-width: 576px) {
+    .formBox{
+        width: 90%;
+    }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+    .formBox{
+        width: 70%;
+    }
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    .formBox{
+        width: 50%;
+    }
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    .formBox{
+        width: 40%;
+    }
+}

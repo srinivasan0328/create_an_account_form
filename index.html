@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="./assets/images/favIcon1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section class="formSection componentSpacing"> <!-- component -->
+            <div class="formContainer align"> <!-- componentContainer -->
+                <div class="formBody grid-1"> <!-- row -->
+                    <div class="formBlock dflex"> <!-- column -->
+                        <div class="formBox dflex-col"> <!-- subColumn -->
+                            <div class="formTitle"> <!-- formTitle -->
+                                <h3>Create an Account</h3> <!-- contentContainer -->
+                                <p>Enter your details to get started</p>
+                            </div>
+                            <form action="#" class="loginForm" method="POST">  <!--actual form starts-->
+
+                                <div class="formGrp"> <!--grouping each input -->
+                                    <label for="userName" >Name</label> <!-- label for Form -->
+                                    <input type="text" class="userName" placeholder="Enter your username" name="userName" id="userName" required> <!-- form input -->
+                                    <i class="fa-regular fa-user" style="color: #050505;"></i> 
+                                </div>
+
+                                <div class="formGrp"> <!--grouping each input -->
+                                    <label for="email">Email</label> <!-- label for Form -->
+                                    <input type="email" class="email" placeholder="Enter your email" name="email" id="email" required> <!-- form input -->
+                                    <i class="fa-regular fa-envelope" style="color: #000000;"></i>                                
+                                </div>
+
+                                <div class="formGrp"> <!--grouping each input -->
+                                    <label for="password">Password</label> <!-- label for Form -->
+                                    <input type="password" class="password" placeholder="Enter your password" name="password" id="password" required> <!-- form input -->
+                                    <i class="fa-solid fa-lock" style="color: #000000;"></i>                               
+                                </div>
+
+                                <div class="formGrp BtnGrp">
+                                    <button type="submit">Sign Up</button>
+                                </div>
+                                <div class="logIn">
+                                    <p>Already have an account? <a href="">Login</a></p>
+                                </div>
+
+                            </form>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

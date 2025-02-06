@@ -1,0 +1,90 @@
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step2: component */
+.formSection{
+    background-color: #00ffff;
+}
+
+/* step3: componentContainer */
+.formContainer{
+    background-color: #3e8544;
+}
+
+/* step4: row */
+.formBody{
+    background-color: beige;    
+}
+
+/* step5: column */
+.formBlock{
+    background-color: #ba5858;
+}
+
+/* step6: subColumn */
+.formBox{
+    background-color: #dcc939;
+}
+
+.formTitle{
+    background-color: #a4d254;
+}
+
+/* step7: contentContainer */
+.formTitle h3{
+    background-color: #632121;
+}
+
+.formTitle p{
+    background-color: #388893;
+}
+
+/* <!--actual form starts--!> */
+.loginForm{
+    background-color: #362b99;
+}
+
+.formGrp{
+    background-color: #a54e9a;
+}
+.formGrp label{
+    background-color: #605e20;
+}
+
+.formGrp input{
+    background-color: #ec2654;
+}
+
+.formGrp i{
+    background-color: #6a6799;
+}
+
+.BtnGp{
+    background-color: #4a7148;
+}
+
+.BtnGp button{
+    background-color: #d4933f;
+}
+
+.logIn{
+    background-color: #3b324d;
+}
+
+.logIn p{
+    background-color: #316645;
+}
+
+.logIn a{
+    background-color: #e2dd48;
+}
