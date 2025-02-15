@@ -43,7 +43,7 @@ footer {
 /* step4: row */
 .formBody{
     /* background-color: beige;   */
-    /* padding: 1rem; */
+    padding: 2rem 1rem;
 }
 
 /* step5: column */
@@ -59,8 +59,7 @@ footer {
     padding: 3rem;
     border: 1px solid #d3d3d5;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px 0px #cecfd1,
-    -2px 2px 10px 0px #cecfd1;
+    box-shadow: 0px 0px 10px 0px #cecfd1;
     z-index: 999;
 }
 
@@ -104,6 +103,14 @@ footer {
     font-weight: 500;
 }
 
+.formGrp input:focus{
+    box-shadow: 0 0 5px #b4b4b0;
+    outline: none;
+    border: 2px solid #70a3b4;
+    transform: scale(1.05);
+    background: transparent;
+}
+
 .formGrp input{
     /* background-color: #ec2654; */
     display: flex;
@@ -113,8 +120,8 @@ footer {
     border: 2px solid #a6a8aa;
     border-radius: 5px;
     width: 100%;
-    margin-bottom: 1.5rem;
-    background-color: transparent;
+    margin-bottom: 2rem;
+    /* background-color: transparent; */
 }
 
 .formGrp i{
@@ -132,6 +139,7 @@ footer {
     background-color: #2201ff;
     color: var(--lightColor);
     margin-bottom: 1.5rem;
+    font-weight: 500;
     width: 100%;
     padding: 1rem 1.5rem;
     border: 1px solid #2201ff;
@@ -139,10 +147,13 @@ footer {
 }
 
 .BtnGrp button:hover{
+    font-weight: 700;
     background-color: #b6babc;
     border: none;
+    /* border: 2px solid #2201ff; */
     color: var(--darkColor);
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .logIn{
